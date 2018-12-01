@@ -3,7 +3,7 @@ package trisha.ruz.ruztrishamarieexam2;
 public class Grade {
     String firstname;
     String lastname;
-    long average;
+    double average;
 
     public String getFirstname() {
         return firstname;
@@ -13,7 +13,7 @@ public class Grade {
         return lastname;
     }
 
-    public long getAverage() {
+    public double getAverage() {
         return average;
     }
 
@@ -21,7 +21,7 @@ public class Grade {
 
     }
 
-    public Grade(String firstname, String lastname, long average) {
+    public Grade(String firstname, String lastname, double average) {
         this.firstname = firstname;
         this.lastname = lastname;
         this.average = average;

@@ -71,17 +71,17 @@ public class MainActivity extends AppCompatActivity {
     public void displayAverage() {
         String firstName = etFirstName.getText().toString().trim();
         String lastName = etLastName.getText().toString().trim();
-        Long examNo1 = Long.parseLong(etExam1.getText().toString().trim());
-        Long examNo2 = Long.parseLong(etExam2.getText().toString().trim());
+        Double examNo1 = Double.parseDouble(etExam1.getText().toString().trim());
+        Double examNo2 = Double.parseDouble(etExam2.getText().toString().trim());
 
-        Long total = (examNo1 + examNo2) / 2;
+        Double total = (examNo1 + examNo2) / 2;
         Grade sgrade = new Grade(firstName, lastName, total);
         String key = myRef.push().getKey();
         myRef.child(key).setValue(sgrade);
         keyList.add(key);
 
 
-        txtTotal.setText("Your average is: " + total.toString());
+        txtTotal.setText("Your average is: " + total);
     }
 
 
