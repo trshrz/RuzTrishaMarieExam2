@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "120227069067",
+    "firebase_url": "https://ruztrishamarieexam2-eeab9.firebaseio.com",
+    "project_id": "ruztrishamarieexam2-eeab9",
+    "storage_bucket": "ruztrishamarieexam2-eeab9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120227069067:android:b592f9bf14705213",
+        "android_client_info": {
+          "package_name": "trisha.ruz.ruztrishamarieexam2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120227069067-fs0ij69pqqf6dr5j09l7hu79cpd3v6r1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trisha.ruz.ruztrishamarieexam2",
+            "certificate_hash": "f0de6939a62e6d76b8abb2dcc566cbadc8b9e059"
+          }
+        },
+        {
+          "client_id": "120227069067-lfc4pquno97traormuef83gk6qbni3gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE8U9dbcOWagUBsrTIeSIZsH-DKyUYJmw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120227069067-lfc4pquno97traormuef83gk6qbni3gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

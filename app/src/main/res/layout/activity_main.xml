@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#000000">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/firstname">
+        <EditText
+            android:id="@+id/userFirstName"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bubble"
+            android:elevation="1dp"
+            android:focusable="true"
+            android:fontFamily="@font/proxima_nova"
+            android:hint=" First Name"
+            android:maxLines="1"
+            android:textColor="@color/darkGrey"
+            android:textColorHint="@color/darkGrey"
+            android:textSize="18sp"
+            android:alpha="0.6"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/lastname"
+        android:layout_below="@id/firstname">
+
+        <EditText
+            android:id="@+id/userLastName"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:alpha="0.6"
+            android:background="@drawable/bubble"
+            android:elevation="1dp"
+            android:focusable="true"
+            android:fontFamily="@font/proxima_nova"
+            android:hint=" Last Name"
+            android:maxLines="1"
+            android:textColor="@color/darkGrey"
+            android:textColorHint="@color/darkGrey"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/exam1"
+        android:layout_below="@id/lastname">
+
+        <EditText
+            android:id="@+id/userExam1"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:alpha="0.6"
+            android:background="@drawable/bubble"
+            android:elevation="1dp"
+            android:focusable="true"
+            android:fontFamily="@font/proxima_nova"
+            android:hint=" Exam 1"
+            android:maxLines="1"
+            android:textColor="@color/darkGrey"
+            android:textColorHint="@color/darkGrey"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/exam2"
+        android:layout_below="@id/exam1">
+
+        <EditText
+            android:id="@+id/userExam2"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:alpha="0.6"
+            android:background="@drawable/bubble"
+            android:elevation="1dp"
+            android:focusable="true"
+            android:fontFamily="@font/proxima_nova"
+            android:hint=" Exam 2"
+            android:maxLines="1"
+            android:textColor="@color/darkGrey"
+            android:textColorHint="@color/darkGrey"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exam2"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/display">
+
+        <Button
+            android:id="@+id/compute"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="DISPLAY AVERAGE"
+            android:textSize="20sp"
+            android:textColor="@color/darkGrey"
+            android:fontFamily="@font/proxima_nova"
+            android:background="@drawable/color_bubble"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/display"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/proxima_nova"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
